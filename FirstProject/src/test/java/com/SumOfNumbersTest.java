@@ -8,11 +8,11 @@ public class SumOfNumbersTest {
 
 	@Test
 	public void test() {
-	int actual=SumOfNumbers.sumOfNumbers(258,357);
-	int expected=615;
-		assertEquals(expected,actual);
+	float actual=SumOfNumbers.sumOfNumbers(28.6f,357f);
+	float expected=615.3f;
 		
 		
+		assertEquals(expected, actual, 0);
 	}
 
 }
